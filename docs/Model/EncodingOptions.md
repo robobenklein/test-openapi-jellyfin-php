@@ -1,0 +1,46 @@
+# # EncodingOptions
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**encoding_thread_count** | **int** |  | [optional]
+**transcoding_temp_path** | **string** |  | [optional]
+**fallback_font_path** | **string** |  | [optional]
+**enable_fallback_font** | **bool** |  | [optional]
+**down_mix_audio_boost** | **float** |  | [optional]
+**max_muxing_queue_size** | **int** |  | [optional]
+**enable_throttling** | **bool** |  | [optional]
+**throttle_delay_seconds** | **int** |  | [optional]
+**hardware_acceleration_type** | **string** |  | [optional]
+**encoder_app_path** | **string** | Gets or sets the FFmpeg path as set by the user via the UI. | [optional]
+**encoder_app_path_display** | **string** | Gets or sets the current FFmpeg path being used by the system and displayed on the transcode page. | [optional]
+**vaapi_device** | **string** |  | [optional]
+**enable_tonemapping** | **bool** |  | [optional]
+**enable_vpp_tonemapping** | **bool** |  | [optional]
+**tonemapping_algorithm** | **string** |  | [optional]
+**tonemapping_mode** | **string** |  | [optional]
+**tonemapping_range** | **string** |  | [optional]
+**tonemapping_desat** | **float** |  | [optional]
+**tonemapping_peak** | **float** |  | [optional]
+**tonemapping_param** | **float** |  | [optional]
+**vpp_tonemapping_brightness** | **float** |  | [optional]
+**vpp_tonemapping_contrast** | **float** |  | [optional]
+**h264_crf** | **int** |  | [optional]
+**h265_crf** | **int** |  | [optional]
+**encoder_preset** | **string** |  | [optional]
+**deinterlace_double_rate** | **bool** |  | [optional]
+**deinterlace_method** | **string** |  | [optional]
+**enable_decoding_color_depth10_hevc** | **bool** |  | [optional]
+**enable_decoding_color_depth10_vp9** | **bool** |  | [optional]
+**enable_enhanced_nvdec_decoder** | **bool** |  | [optional]
+**prefer_system_native_hw_decoder** | **bool** |  | [optional]
+**enable_intel_low_power_h264_hw_encoder** | **bool** |  | [optional]
+**enable_intel_low_power_hevc_hw_encoder** | **bool** |  | [optional]
+**enable_hardware_encoding** | **bool** |  | [optional]
+**allow_hevc_encoding** | **bool** |  | [optional]
+**enable_subtitle_extraction** | **bool** |  | [optional]
+**hardware_decoding_codecs** | **string[]** |  | [optional]
+**allow_on_demand_metadata_based_keyframe_extraction_for_extensions** | **string[]** |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

@@ -1,0 +1,47 @@
+# # UserDtoPolicy
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**is_administrator** | **bool** | Gets or sets a value indicating whether this instance is administrator. | [optional]
+**is_hidden** | **bool** | Gets or sets a value indicating whether this instance is hidden. | [optional]
+**is_disabled** | **bool** | Gets or sets a value indicating whether this instance is disabled. | [optional]
+**max_parental_rating** | **int** | Gets or sets the max parental rating. | [optional]
+**blocked_tags** | **string[]** |  | [optional]
+**enable_user_preference_access** | **bool** |  | [optional]
+**access_schedules** | [**\OpenAPI\Client\Model\AccessSchedule[]**](AccessSchedule.md) |  | [optional]
+**block_unrated_items** | [**\OpenAPI\Client\Model\UnratedItem[]**](UnratedItem.md) |  | [optional]
+**enable_remote_control_of_other_users** | **bool** |  | [optional]
+**enable_shared_device_control** | **bool** |  | [optional]
+**enable_remote_access** | **bool** |  | [optional]
+**enable_live_tv_management** | **bool** |  | [optional]
+**enable_live_tv_access** | **bool** |  | [optional]
+**enable_media_playback** | **bool** |  | [optional]
+**enable_audio_playback_transcoding** | **bool** |  | [optional]
+**enable_video_playback_transcoding** | **bool** |  | [optional]
+**enable_playback_remuxing** | **bool** |  | [optional]
+**force_remote_source_transcoding** | **bool** |  | [optional]
+**enable_content_deletion** | **bool** |  | [optional]
+**enable_content_deletion_from_folders** | **string[]** |  | [optional]
+**enable_content_downloading** | **bool** |  | [optional]
+**enable_sync_transcoding** | **bool** | Gets or sets a value indicating whether [enable synchronize]. | [optional]
+**enable_media_conversion** | **bool** |  | [optional]
+**enabled_devices** | **string[]** |  | [optional]
+**enable_all_devices** | **bool** |  | [optional]
+**enabled_channels** | **string[]** |  | [optional]
+**enable_all_channels** | **bool** |  | [optional]
+**enabled_folders** | **string[]** |  | [optional]
+**enable_all_folders** | **bool** |  | [optional]
+**invalid_login_attempt_count** | **int** |  | [optional]
+**login_attempts_before_lockout** | **int** |  | [optional]
+**max_active_sessions** | **int** |  | [optional]
+**enable_public_sharing** | **bool** |  | [optional]
+**blocked_media_folders** | **string[]** |  | [optional]
+**blocked_channels** | **string[]** |  | [optional]
+**remote_client_bitrate_limit** | **int** |  | [optional]
+**authentication_provider_id** | **string** |  | [optional]
+**password_reset_provider_id** | **string** |  | [optional]
+**sync_play_access** | [**\OpenAPI\Client\Model\SyncPlayUserAccessType**](SyncPlayUserAccessType.md) |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

@@ -1,0 +1,47 @@
+# # CreateProfileRequest
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**name** | **string** | Gets or sets the name of this device profile. | [optional]
+**id** | **string** | Gets or sets the Id. | [optional]
+**identification** | [**\OpenAPI\Client\Model\DeviceProfileIdentification**](DeviceProfileIdentification.md) |  | [optional]
+**friendly_name** | **string** | Gets or sets the friendly name of the device profile, which can be shown to users. | [optional]
+**manufacturer** | **string** | Gets or sets the manufacturer of the device which this profile represents. | [optional]
+**manufacturer_url** | **string** | Gets or sets an url for the manufacturer of the device which this profile represents. | [optional]
+**model_name** | **string** | Gets or sets the model name of the device which this profile represents. | [optional]
+**model_description** | **string** | Gets or sets the model description of the device which this profile represents. | [optional]
+**model_number** | **string** | Gets or sets the model number of the device which this profile represents. | [optional]
+**model_url** | **string** | Gets or sets the ModelUrl. | [optional]
+**serial_number** | **string** | Gets or sets the serial number of the device which this profile represents. | [optional]
+**enable_album_art_in_didl** | **bool** | Gets or sets a value indicating whether EnableAlbumArtInDidl. | [optional] [default to false]
+**enable_single_album_art_limit** | **bool** | Gets or sets a value indicating whether EnableSingleAlbumArtLimit. | [optional] [default to false]
+**enable_single_subtitle_limit** | **bool** | Gets or sets a value indicating whether EnableSingleSubtitleLimit. | [optional] [default to false]
+**supported_media_types** | **string** | Gets or sets the SupportedMediaTypes. | [optional]
+**user_id** | **string** | Gets or sets the UserId. | [optional]
+**album_art_pn** | **string** | Gets or sets the AlbumArtPn. | [optional]
+**max_album_art_width** | **int** | Gets or sets the MaxAlbumArtWidth. | [optional]
+**max_album_art_height** | **int** | Gets or sets the MaxAlbumArtHeight. | [optional]
+**max_icon_width** | **int** | Gets or sets the maximum allowed width of embedded icons. | [optional]
+**max_icon_height** | **int** | Gets or sets the maximum allowed height of embedded icons. | [optional]
+**max_streaming_bitrate** | **int** | Gets or sets the maximum allowed bitrate for all streamed content. | [optional]
+**max_static_bitrate** | **int** | Gets or sets the maximum allowed bitrate for statically streamed content (&#x3D; direct played files). | [optional]
+**music_streaming_transcoding_bitrate** | **int** | Gets or sets the maximum allowed bitrate for transcoded music streams. | [optional]
+**max_static_music_bitrate** | **int** | Gets or sets the maximum allowed bitrate for statically streamed (&#x3D; direct played) music files. | [optional]
+**sony_aggregation_flags** | **string** | Gets or sets the content of the aggregationFlags element in the urn:schemas-sonycom:av namespace. | [optional]
+**protocol_info** | **string** | Gets or sets the ProtocolInfo. | [optional]
+**timeline_offset_seconds** | **int** | Gets or sets the TimelineOffsetSeconds. | [optional] [default to 0]
+**requires_plain_video_items** | **bool** | Gets or sets a value indicating whether RequiresPlainVideoItems. | [optional] [default to false]
+**requires_plain_folders** | **bool** | Gets or sets a value indicating whether RequiresPlainFolders. | [optional] [default to false]
+**enable_ms_media_receiver_registrar** | **bool** | Gets or sets a value indicating whether EnableMSMediaReceiverRegistrar. | [optional] [default to false]
+**ignore_transcode_byte_range_requests** | **bool** | Gets or sets a value indicating whether IgnoreTranscodeByteRangeRequests. | [optional] [default to false]
+**xml_root_attributes** | [**\OpenAPI\Client\Model\XmlAttribute[]**](XmlAttribute.md) | Gets or sets the XmlRootAttributes. | [optional]
+**direct_play_profiles** | [**\OpenAPI\Client\Model\DirectPlayProfile[]**](DirectPlayProfile.md) | Gets or sets the direct play profiles. | [optional]
+**transcoding_profiles** | [**\OpenAPI\Client\Model\TranscodingProfile[]**](TranscodingProfile.md) | Gets or sets the transcoding profiles. | [optional]
+**container_profiles** | [**\OpenAPI\Client\Model\ContainerProfile[]**](ContainerProfile.md) | Gets or sets the container profiles. | [optional]
+**codec_profiles** | [**\OpenAPI\Client\Model\CodecProfile[]**](CodecProfile.md) | Gets or sets the codec profiles. | [optional]
+**response_profiles** | [**\OpenAPI\Client\Model\ResponseProfile[]**](ResponseProfile.md) | Gets or sets the ResponseProfiles. | [optional]
+**subtitle_profiles** | [**\OpenAPI\Client\Model\SubtitleProfile[]**](SubtitleProfile.md) | Gets or sets the subtitle profiles. | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

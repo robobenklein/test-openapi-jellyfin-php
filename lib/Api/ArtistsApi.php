@@ -850,9 +850,9 @@ class ArtistsApi
         }
 
         // this endpoint requires API key authentication
-        $apiKey = $this->config->getApiKeyWithPrefix('Authorization');
+        $apiKey = $this->config->getApiKeyWithPrefix('X-Emby-Token');
         if ($apiKey !== null) {
-            $headers['Authorization'] = $apiKey;
+            $headers['X-Emby-Token'] = $apiKey;
         }
 
         $defaultHeaders = [];
@@ -1153,9 +1153,9 @@ class ArtistsApi
         }
 
         // this endpoint requires API key authentication
-        $apiKey = $this->config->getApiKeyWithPrefix('Authorization');
+        $apiKey = $this->config->getApiKeyWithPrefix('X-Emby-Token');
         if ($apiKey !== null) {
-            $headers['Authorization'] = $apiKey;
+            $headers['X-Emby-Token'] = $apiKey;
         }
 
         $defaultHeaders = [];
@@ -1901,9 +1901,9 @@ class ArtistsApi
         }
 
         // this endpoint requires API key authentication
-        $apiKey = $this->config->getApiKeyWithPrefix('Authorization');
+        $apiKey = $this->config->getApiKeyWithPrefix('X-Emby-Token');
         if ($apiKey !== null) {
-            $headers['Authorization'] = $apiKey;
+            $headers['X-Emby-Token'] = $apiKey;
         }
 
         $defaultHeaders = [];
